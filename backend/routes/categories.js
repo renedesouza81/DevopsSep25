@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const db = require("../db");
-1233455
+
 router.get("/", (req, res) => {
   db.query("SELECT * FROM categories", (err, result) => {
     res.json(result);
