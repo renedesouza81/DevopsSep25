@@ -1,6 +1,6 @@
-const API_SUPPLIERS = "http://localhost:3000/suppliers";
-const API_ITEMS = "http://localhost:3000/items";
-const API_ORDERS = "http://localhost:3000/orders";
+const API_SUPPLIERS = "/api/suppliers";
+const API_ITEMS = "/api/items";
+const API_ORDERS = "/api/orders";
 
 let orderItems = []; // temporary list of items for current order
 

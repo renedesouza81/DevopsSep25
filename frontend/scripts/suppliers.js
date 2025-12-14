@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/suppliers";
+const API = "/api/suppliers";
 
 function loadSuppliers() {
   fetch(API)

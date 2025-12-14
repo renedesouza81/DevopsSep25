@@ -1,7 +1,7 @@
 document.getElementById("stockForm").addEventListener("submit", e => {
   e.preventDefault();
 
-  fetch("http://localhost:3000/stock", {
+  fetch("/api/stock", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({
